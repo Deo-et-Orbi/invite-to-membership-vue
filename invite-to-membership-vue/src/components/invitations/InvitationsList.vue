@@ -2,6 +2,7 @@
   <StatefulResource :resource="invitationsResource">
     <b-table
       bordered
+      responsive
       head-variant="dark"
       striped
       hover

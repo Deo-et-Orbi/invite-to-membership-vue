@@ -28,10 +28,12 @@
       ></b-form-textarea>
     </b-form-group>
 
-    <b-button type="submit" variant="primary" class="mr-2"
+    <b-button type="submit" variant="primary" class="mr-2 mb-3"
       >Wygeneruj link zaproszenia</b-button
     >
-    <b-button type="reset" variant="secondary">Resetuj formularz</b-button>
+    <b-button type="reset" variant="secondary" class="mb-3"
+      >Resetuj formularz</b-button
+    >
 
     <div class="mt-3">
       <StatefulResource :resource="inviteResultResource">
