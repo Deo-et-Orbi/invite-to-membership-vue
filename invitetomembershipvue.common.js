@@ -56984,7 +56984,7 @@ var bootstrap = __webpack_require__("f9e3");
 // EXTERNAL MODULE: ./node_modules/bootstrap-vue/dist/bootstrap-vue.css
 var bootstrap_vue = __webpack_require__("2dd8");
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"2e39b642-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=template&id=3bba4b33&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"da3ca2f6-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=template&id=3bba4b33&
 var Appvue_type_template_id_3bba4b33_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{attrs:{"id":"app"}},[_c('EnsureLoggedIn',{scopedSlots:_vm._u([{key:"loggedIn",fn:function(){return [_c('AppBar'),_c('InvitationsPanel')]},proxy:true},{key:"loggedOut",fn:function(){return [_c('LogInScreen')]},proxy:true}])})],1)}
 var staticRenderFns = []
 
@@ -58019,7 +58019,7 @@ function Watch(path, options) {
 
 
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"2e39b642-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/EnsureLoggedIn.vue?vue&type=template&id=3de49de9&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"da3ca2f6-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/EnsureLoggedIn.vue?vue&type=template&id=3de49de9&
 var EnsureLoggedInvue_type_template_id_3de49de9_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[(_vm.isLoggedIn)?_vm._t("loggedIn"):_vm._t("loggedOut")],2)}
 var EnsureLoggedInvue_type_template_id_3de49de9_staticRenderFns = []
 
@@ -58208,7 +58208,7 @@ var component = normalizeComponent(
 )
 
 /* harmony default export */ var components_EnsureLoggedIn = (component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"2e39b642-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/LogInScreen.vue?vue&type=template&id=05ce8a31&scoped=true&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"da3ca2f6-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/LogInScreen.vue?vue&type=template&id=05ce8a31&scoped=true&
 var LogInScreenvue_type_template_id_05ce8a31_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
 var LogInScreenvue_type_template_id_05ce8a31_scoped_true_staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"log-in-screen"},[_c('h2',[_vm._v("Zaloguj się")]),_c('section',{attrs:{"id":"firebaseui-auth-container"}},[_vm._v("Ładowanie autoryzacji...")])])}]
 
@@ -58298,7 +58298,7 @@ var LogInScreen_component = normalizeComponent(
 )
 
 /* harmony default export */ var components_LogInScreen = (LogInScreen_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"2e39b642-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/AppBar.vue?vue&type=template&id=bfe220d8&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"da3ca2f6-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/AppBar.vue?vue&type=template&id=bfe220d8&
 var AppBarvue_type_template_id_bfe220d8_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('b-navbar',{attrs:{"type":"dark","variant":"dark"}},[_c('b-navbar-brand',{attrs:{"href":"#"}},[_vm._v("Invite to DEO membership")]),_c('b-navbar-nav',{staticClass:"ml-auto"},[_c('b-nav-item',[_vm._v(_vm._s(_vm.displayName))]),_c('b-nav-item',{on:{"click":function($event){return _vm.logOut()}}},[_vm._v("Wyloguj się")])],1)],1)}
 var AppBarvue_type_template_id_bfe220d8_staticRenderFns = []
 
@@ -58391,19 +58391,19 @@ var AppBar_component = normalizeComponent(
 )
 
 /* harmony default export */ var AppBar = (AppBar_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"2e39b642-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/invitations/InvitationsPanel.vue?vue&type=template&id=2d5efb25&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"da3ca2f6-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/invitations/InvitationsPanel.vue?vue&type=template&id=2d5efb25&
 var InvitationsPanelvue_type_template_id_2d5efb25_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"m-4"},[_c('b-card',{staticClass:"mb-3",attrs:{"bg-variant":"light","header":"Wygeneruj link zaproszenia"}},[_c('InviteForm',{on:{"invited":function($event){return _vm.reloadList()}}})],1),_c('InvitationsList',{ref:"list"})],1)}
 var InvitationsPanelvue_type_template_id_2d5efb25_staticRenderFns = []
 
 
 // CONCATENATED MODULE: ./src/components/invitations/InvitationsPanel.vue?vue&type=template&id=2d5efb25&
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"2e39b642-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/invitations/InviteForm.vue?vue&type=template&id=10ac69fc&
-var InviteFormvue_type_template_id_10ac69fc_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('b-form',{on:{"submit":function($event){$event.preventDefault();return _vm.onSubmit($event)},"reset":_vm.onReset}},[_c('b-form-group',{attrs:{"id":"input-group-1","label-for":"input-1","description":"Do wyświetlenia zaproszenia"}},[_c('b-form-input',{attrs:{"id":"input-1","placeholder":"Imię i nazwisko","required":""},model:{value:(_vm.displayName),callback:function ($$v) {_vm.displayName=$$v},expression:"displayName"}})],1),_c('b-form-group',{attrs:{"id":"input-group-2","label-for":"textarea-message","description":"Wyświetli się w formularzu zakładania konta"}},[_c('b-form-textarea',{attrs:{"id":"textarea-message","placeholder":"Wpisz tekst zaproszenia","rows":"3","max-rows":"6","reqired":""},model:{value:(_vm.message),callback:function ($$v) {_vm.message=$$v},expression:"message"}})],1),_c('b-button',{staticClass:"mr-2",attrs:{"type":"submit","variant":"primary"}},[_vm._v("Wygeneruj link zaproszenia")]),_c('b-button',{attrs:{"type":"reset","variant":"secondary"}},[_vm._v("Resetuj formularz")]),_c('div',{staticClass:"mt-3"},[_c('StatefulResource',{attrs:{"resource":_vm.inviteResultResource}},[_c('b-alert',{attrs:{"variant":"success","show":""}},[_vm._v(" Udało się. Wyślij tej osobie link zaproszenia: "+_vm._s(_vm.invitationLink)+" ")])],1)],1)],1)}
-var InviteFormvue_type_template_id_10ac69fc_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"da3ca2f6-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/invitations/InviteForm.vue?vue&type=template&id=88e270f2&
+var InviteFormvue_type_template_id_88e270f2_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('b-form',{on:{"submit":function($event){$event.preventDefault();return _vm.onSubmit($event)},"reset":_vm.onReset}},[_c('b-form-group',{attrs:{"id":"input-group-1","label-for":"input-1","description":"Do wyświetlenia zaproszenia"}},[_c('b-form-input',{attrs:{"id":"input-1","placeholder":"Imię i nazwisko","required":""},model:{value:(_vm.displayName),callback:function ($$v) {_vm.displayName=$$v},expression:"displayName"}})],1),_c('b-form-group',{attrs:{"id":"input-group-2","label-for":"textarea-message","description":"Wyświetli się w formularzu zakładania konta"}},[_c('b-form-textarea',{attrs:{"id":"textarea-message","placeholder":"Wpisz tekst zaproszenia","rows":"3","max-rows":"6","reqired":""},model:{value:(_vm.message),callback:function ($$v) {_vm.message=$$v},expression:"message"}})],1),_c('b-button',{staticClass:"mr-2 mb-3",attrs:{"type":"submit","variant":"primary"}},[_vm._v("Wygeneruj link zaproszenia")]),_c('b-button',{staticClass:"mb-3",attrs:{"type":"reset","variant":"secondary"}},[_vm._v("Resetuj formularz")]),_c('div',{staticClass:"mt-3"},[_c('StatefulResource',{attrs:{"resource":_vm.inviteResultResource}},[_c('b-alert',{attrs:{"variant":"success","show":""}},[_vm._v(" Udało się. Wyślij tej osobie link zaproszenia: "+_vm._s(_vm.invitationLink)+" ")])],1)],1)],1)}
+var InviteFormvue_type_template_id_88e270f2_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/invitations/InviteForm.vue?vue&type=template&id=10ac69fc&
+// CONCATENATED MODULE: ./src/components/invitations/InviteForm.vue?vue&type=template&id=88e270f2&
 
 // EXTERNAL MODULE: ./node_modules/vue-stateful-resource/dist/vue-stateful-resource.common.js
 var vue_stateful_resource_common = __webpack_require__("7dfe");
@@ -58670,8 +58670,8 @@ InviteFormvue_type_script_lang_ts_InviteForm = __decorate([vue_class_component_e
 
 var InviteForm_component = normalizeComponent(
   invitations_InviteFormvue_type_script_lang_ts_,
-  InviteFormvue_type_template_id_10ac69fc_render,
-  InviteFormvue_type_template_id_10ac69fc_staticRenderFns,
+  InviteFormvue_type_template_id_88e270f2_render,
+  InviteFormvue_type_template_id_88e270f2_staticRenderFns,
   false,
   null,
   null,
@@ -58680,12 +58680,12 @@ var InviteForm_component = normalizeComponent(
 )
 
 /* harmony default export */ var invitations_InviteForm = (InviteForm_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"2e39b642-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/invitations/InvitationsList.vue?vue&type=template&id=06c7b41a&
-var InvitationsListvue_type_template_id_06c7b41a_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('StatefulResource',{attrs:{"resource":_vm.invitationsResource}},[_c('b-table',{attrs:{"bordered":"","head-variant":"dark","striped":"","hover":"","items":_vm.items,"fields":_vm.fields}})],1)}
-var InvitationsListvue_type_template_id_06c7b41a_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"da3ca2f6-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/invitations/InvitationsList.vue?vue&type=template&id=59d2fb9c&
+var InvitationsListvue_type_template_id_59d2fb9c_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('StatefulResource',{attrs:{"resource":_vm.invitationsResource}},[_c('b-table',{attrs:{"bordered":"","responsive":"","head-variant":"dark","striped":"","hover":"","items":_vm.items,"fields":_vm.fields}})],1)}
+var InvitationsListvue_type_template_id_59d2fb9c_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/invitations/InvitationsList.vue?vue&type=template&id=06c7b41a&
+// CONCATENATED MODULE: ./src/components/invitations/InvitationsList.vue?vue&type=template&id=59d2fb9c&
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es.object.keys.js
 var es_object_keys = __webpack_require__("b64b");
@@ -58866,8 +58866,8 @@ InvitationsListvue_type_script_lang_ts_InvitationsList = __decorate([vue_class_c
 
 var InvitationsList_component = normalizeComponent(
   invitations_InvitationsListvue_type_script_lang_ts_,
-  InvitationsListvue_type_template_id_06c7b41a_render,
-  InvitationsListvue_type_template_id_06c7b41a_staticRenderFns,
+  InvitationsListvue_type_template_id_59d2fb9c_render,
+  InvitationsListvue_type_template_id_59d2fb9c_staticRenderFns,
   false,
   null,
   null,
