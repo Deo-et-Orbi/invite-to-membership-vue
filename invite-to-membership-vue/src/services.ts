@@ -2,7 +2,7 @@ import { Invitation } from "./domain";
 import { fetchFromApi, postToApi } from "./util";
 
 export function loadInvitations(): Promise<Invitation[]> {
-  return fetchFromApi("api/all_invitations");
+  return fetchFromApi("invitation/all");
 }
 
 export function createInvitation({
@@ -12,7 +12,7 @@ export function createInvitation({
   displayName: string;
   message: string;
 }): Promise<Invitation> {
-  return postToApi("api/invite", {
+  return postToApi("invitation/invite", {
     displayName,
     message,
   });
