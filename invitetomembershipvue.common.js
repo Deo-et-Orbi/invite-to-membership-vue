@@ -58550,12 +58550,12 @@ function _postToApi() {
 // CONCATENATED MODULE: ./src/services.ts
 
 function loadInvitations() {
-  return fetchFromApi("api/all_invitations");
+  return fetchFromApi("invitation/all");
 }
 function createInvitation(_ref) {
   var displayName = _ref.displayName,
       message = _ref.message;
-  return postToApi("api/invite", {
+  return postToApi("invitation/invite", {
     displayName: displayName,
     message: message
   });
